@@ -1,6 +1,6 @@
 안녕하세요, 문준상입니다 👋
-> \*\*PLC SW Engineer @ Dahan FA\*\* · \*\*M.S. Candidate in Smart Factory Convergence, Sungkyunkwan University\*\*  
-> 산업 현장 경험을 바탕으로 \*\*FA 설비 제어 + AI 이상 진단\*\*을 연구합니다.
+> \\\*\\\*PLC SW Engineer @ Dahan FA\\\*\\\* · \\\*\\\*M.S. Candidate in Smart Factory Convergence, Sungkyunkwan University\\\*\\\*  
+> 산업 현장 경험을 바탕으로 \\\*\\\*FA 설비 제어 + AI 이상 진단\\\*\\\*을 연구합니다.
 ---
 🔧 What I Do
 FA 설비 PLC 프로그래밍 — LS Electric(XG5000), Mitsubishi(GX Works2) 기반 설비 설계·커미셔닝
@@ -10,11 +10,11 @@ HMI 개발 — GT Designer3 (GOT1000), 데이터 로깅 및 레시피 관리
 IIoT 데이터 수집 — Python + MX Component로 PLC 레지스터 100ms 샘플링
 ---
 🔬 Research — RT-FAD Framework
-> \*\*RT-FAD: Real-Time Fault and Anomaly Detection for PLC-Controlled Pneumatic Systems Using Response Time Features\*\*  
-> \*Junsang Mun, Jongpil Jeong — Submitted to \*\*MDPI Sensors\*\*, 2026\*
+> \\\*\\\*RT-FAD: Real-Time Fault and Anomaly Detection for PLC-Controlled Pneumatic Systems Using Response Time Features\\\*\\\*  
+> \\\*Junsang Mun, Jongpil Jeong — Submitted to \\\*\\\*MDPI Sensors\\\*\\\*, 2026\\\*
 Mitsubishi Q02HCPU PLC 기반 4스테이션 로터리 인덱스 테이블에서 응답 시간(Δt) 단일 피처만으로 3가지 공압 고장 유형 및 재하 손실 시나리오를 실시간 진단하는 프레임워크.
 ```
-PLC Internal Register (D2000\~D2014, 15 axes, 100ms)
+PLC Internal Register (D2000\\\~D2014, 15 axes, 100ms)
     └─ Z-score Detector        → Spike-type  (Air Hose Disconnection, Compressor OFF)
     └─ LSTM Autoencoder        → Drift-type  (Air Hose Wear)
          └─ OR Fusion
